@@ -1,7 +1,7 @@
 
 import React,{useState} from "react";
 import './../styles/App.css';
-import Input from './form.js';
+import Input from './Form.js';
 
 const App = () => {
   let [name,setName] = useState('default');
